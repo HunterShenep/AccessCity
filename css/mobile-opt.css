@@ -1,0 +1,194 @@
+/* BEGIN MOBILE OPTIMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* BEGIN MOBILE OPTIMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* BEGIN MOBILE OPTIMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+@media screen and (min-width: 321px) and (max-width: 1124px){
+body{
+	background-color: #cacaca;
+}
+h1{
+	font-size: 70px;
+	font-weight: normal;
+}
+h2{
+	font-size: 60px;
+	font-weight: normal;
+}
+h3{
+	font-size: 55px;
+}
+
+p{
+	font-size: 50px;
+	line-height: 70px;
+}
+#info{
+	width: 50px;
+}
+#stroke{
+	background-color: #ffffff;
+	padding: 5px 15px;
+	opacity: 0.6;
+}
+.navLinks{
+	display: none;
+	position: fixed;
+	width: 50%;
+	top: 150px;
+	right: 0px;
+	z-index: 3;
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-sizing: border-box;
+	margin-right: 30px;
+}
+.nav{
+	display: block;
+	width: 100%;
+	background-color: #ffffff;
+	font-size: 75px;
+	text-align: left;
+	padding: 20px 25px;
+}
+.nav:hover{
+	padding-left: 25px;
+	
+}
+.menuButton{
+	display: inline;
+	float: right;
+}
+.menu{
+	width: 100px;
+	margin-right: 30px;
+	margin-top: 25px;
+}
+.logo{
+	width: 400px;
+	margin-left: 15px;
+	margin-top: 13px;
+}
+.our-mission-cont{
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	
+}
+.our-mission{
+	width: 100%;
+	box-sizing: border-box;
+	
+}
+.content-container{
+	width: 100%;
+}
+.half-divider{
+	width: 100%;
+	margin-bottom: 45px;
+	border-bottom: 1px solid #cacaca;
+	padding-bottom: 45px;
+	font-size: 50px;
+}
+.general-button{
+	padding: 20px 65px;
+	border-radius: 3px;
+	font-size: 60px;
+	margin: 10px 15px;
+}
+.home-tile-pic{
+	width: 90%;
+}
+#map{
+	width: 80%;
+	height: 800px;
+	margin: 0px auto;
+}
+
+.listing-divider{
+	width: 100%;
+}
+#title{
+	width: 100%;
+	display: block;
+	font-size: 65px;
+	float: left;
+}
+.general-button.new-review{
+	display: inline;
+	box-sizing: border-box;
+	float: right;
+	margin-top: 50px;
+}
+#address{
+	font-size: 40px;
+}
+#listing-title{
+	margin-left: 30px;
+}
+.listing-container{
+	padding: 50px 30px;
+}
+.score{
+	font-size: 60px;
+	padding: 15px 60px;
+	margin-top: 30px;
+}
+.label{
+	font-size: 50px;
+	padding: 20px 50px;
+}
+#review-h3{
+	font-size: 40px;
+}
+.container{
+	width: 90%;
+}
+.input-text-long{
+	height: 100px;
+	width: 60%;
+	font-size: 50px;
+}
+.input-text-long.newBiz{
+	width: 90%;
+}
+.input-search{
+	font-size: 40px;
+	width: 34%;
+	height: 100px;
+	position: relative;
+	top: -4px;
+	margin-left: 5px;
+}
+
+#search-result{
+	font-size: 50px;
+}
+.footer-container{
+	width: 100%;
+}
+.footer-tile{
+	width: 100%;
+	padding: 30px 20px;
+	font-size: 60px;
+	line-height: 80px;
+}
+.footer-tile.right{
+	font-size: 40px;
+	line-height: 40px;
+}
+.footer{
+
+}
+.search-divider{
+	width: 100%;
+}
+.search-divider.right{
+	text-align: center;
+	font-size: 40px;
+	background-color: #cacaca;
+	padding: 20px 0px;
+	margin: 15px 0px;
+}
+
+}

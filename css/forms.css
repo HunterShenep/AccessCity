@@ -1,0 +1,253 @@
+body{
+	font-family: Calibri, Arial;
+
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
+#review-h3{
+	margin-bottom: 25px;
+}
+
+form{
+	margin: 0px;
+	padding: 0px;
+}
+hr{
+	height: 0px;
+	border: 1px solid #cacaca;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.container{
+	display: block;
+	box-sizing: border-box;
+	margin: 50px auto;
+	width: 624px;
+	background: linear-gradient(170deg, #323232, #000000);
+	padding: 25px;
+	border-radius: 3px;
+	overflow: hidden;
+
+}
+.container.none{
+	display: none;
+}
+.container.main{
+	
+}
+.container.restaurant{
+
+	animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+#formbox{
+	display: block;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+	padding: 25px;
+	border-radius: 3px;
+	text-align: center;
+	
+}
+
+#form-heading{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+#sub-type{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 15px;
+	border-radius: 3px;
+	border: 1px solid #cacaca;
+	text-align: center;
+	margin-top: 5px;
+}
+#sub-type:hover{
+	background-color: #cacaca;
+}
+#question{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 15px;
+	border-radius: 3px;
+	border: 1px solid #cacaca;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+#yn-cont{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#yn-button{
+	display: inline;
+	font-size: 25px;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: 1px solid #cacaca;
+	border-radius: 3px;
+}
+input[type="radio"] {
+    display: none;
+}
+
+
+.label{
+	font-size: 25px;
+	padding: 10px 20px;
+	background-color: #2db21b;
+	border: thin solid #cacaca;
+	border-radius: 4px;
+	margin:5px;
+	display: inline-block;
+	color: #000000;
+}
+.label.no{
+	
+	background-color: #ed3838;
+
+}
+input[type="radio"]:checked + label {
+   
+	width: 40%;
+	
+    cursor: default;
+    color: #000000;
+}
+
+
+.input-submit-long{
+	box-sizing: border-box;
+	width: 15%;
+	height: 40px;
+	padding: 5px;
+	border: 1px solid #cacaca;
+	font-size: 18px;
+	margin-left: 5px;
+}
+.input-text-long.newBiz{
+	margin-bottom: 25px;
+}
+.input-text-long{
+	box-sizing: border-box;
+	width: 80%;
+	height: 40px;
+	padding: 5px;
+	padding-left: 15px;
+	border: 1px solid #cacaca;
+	font-size: 18px;
+}
+.input-text-long:focus{
+	background-color: #cacaca;
+}
+.input-search{
+	box-sizing: border-box;
+	box-shadow:inset 0px 1px 0px 0px #276873;
+	background:linear-gradient(to bottom, #297996 5%, #408c99 100%);
+	background-color:#297996;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding: 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	width: 15%;
+	height: 40px;
+	position: relative;
+	top: -1px;
+}
+
+.input-submit-long.large{
+	width: 300px;
+	height: 50px;
+	font-size: 25px;
+	margin-top: 25px;
+}
+.input-submit-long:hover{
+	background-color: #cacaca;
+}
+#search-result{
+	font-size: 20px;
+	font-weight: normal;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 15px;
+	border-radius: 3px;
+	border: 1px solid #cacaca;
+	text-align: center;
+	margin-top: 5px;
+	overflow: hidden;
+}
+#search-result:hover{
+	background-color: #cacaca;
+}
+#search-result-left{
+	display: inline;
+	float: left;
+	width: -webkit-calc(100% - 50px);
+    width:    -moz-calc(100% - 50px);
+    width:         calc(100% - 50px);
+	
+}
+
+#search-result-right{
+	display: inline;
+	float: left;
+	width: 40px;
+}
+#new-review-icon{
+	width: 30px;
+	position: relative;
+	top: 10px;
+	padding-left: 15px;
+}
+#review-textarea{
+	box-sizing: border-box;
+	width: 100%;
+	height: 250px;
+	font-family: sansation;
+	font-size: 20px;
+}
+.new-business{
+	display: block;
+	box-sizing: border-box;
+	padding: 50px;
+	width: 100%;
+	overflow: hidden;
+}
+#alert{
+	font-size: 30px;
+	color: red;
+	text-align: center;
+}
+.registration{
+	font-size: 30px;
+}
+	

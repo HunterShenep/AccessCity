@@ -1,0 +1,329 @@
+@font-face { font-family: sansation; src: url('../fonts/sansation/Sansation_Regular.ttf'); } 
+@font-face { font-family: sansationB; src: url('../fonts/sansation/Sansation_Bold.ttf'); } 
+@font-face { font-family: neuton; src: url('../fonts/neuton/Neuton-Regular.ttf'); } 
+body{
+	display: block;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+	font-family: sansation;
+	/*background-image: linear-gradient(-125deg, #5430e2, #9b39e5);*/
+	background: url(../images/background.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+p{
+	margin: 0px;
+	margin-bottom: 15px;
+	padding: 0px;
+	line-height: 30px;
+}
+h1{
+	font-family: neuton;
+	font-size: 50px;
+	color: #5e92a5;
+	margin: 30px 0px;
+}
+h2{
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	font-family: neuton;
+	font-size: 45px;
+	color: #5e92a5;
+	text-align: center;
+	margin: 0px;
+	padding: 25px;
+}
+h3{
+	padding: 0px;
+	margin: 15px;
+	font-size: 22px;
+	text-align: center;
+}
+h4{
+	text-align: center;
+	font-size: 20px;
+}
+#map {
+	height: 400px;  /* The height is 400 pixels */
+	width: 100%;  /* The width is the width of the web page */
+}
+
+a:link{color: #000000; text-decoration: none;}
+a:visited{color: #000000;}
+a:hover{color: #000000; text-decoration: underline;}
+
+a.nav:link{color: #000000; text-decoration: none;}
+a.nav:visited{color: #000000; text-decoration: none;}
+a.nav:hover{color: #cacaca; text-decoration: none;}
+
+.navh1{
+	font-size: 25px;
+	color: #000000;
+	display: none;
+}
+.navh2{
+	font-size: 15px;
+}
+.navbar{
+	display: block;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #ffffff;
+	color: #ffffff;
+	padding: 15px;
+	font-size: 20px;
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navTitle{
+	display: inline;
+	float: left;
+	width: 250px;
+
+	box-sizing: border-box;
+	text-align: center;
+}
+.navLinks{
+	margin-top: 15px;
+	padding-top: 6px;
+	padding-right: 25px;
+	display: inline;
+	box-sizing: border-box;
+	float: left;
+	width: -webkit-calc(100% - 250px);
+    width:    -moz-calc(100% - 250px);
+    width:         calc(100% - 250px);
+	text-align: right;
+	word-spacing: 30px;
+	text-transform: uppercase;
+}
+.nav{
+	font-size: 23px;
+}
+.navLogin{
+	display: block;
+	width: 100%;
+	text-align: right;
+	color: #000000;
+	position: relative;
+	top: 20px;
+	font-size: 17px;
+	word-spacing: 3px;
+	color: #cacaca;
+}
+.nav-input-text{
+	border: 1px solid #cacaca;
+	width: 120px;
+	margin-left: 5px;
+}
+.nav-input-submit{
+	
+	font-family: sansation;
+	color: #cacaca;
+	background-color: #ffffff;
+	border: 1px solid #cacaca;
+	font-size: 17px;
+	height: 20px;
+	position: relative;
+	top: 2px;
+	margin-left: 5px;
+}
+.navSocialMedia{
+	display: inline;
+	box-sizing: border-box;
+	float: left;
+	width: 250px;
+
+	text-align: right;
+}
+.logo{
+	width: 240px;
+}
+.menuButton{
+	display: none;
+}
+.lax-pic{
+	width: 100%;
+	max-height: 350px;
+}
+.main-container{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding-bottom: 25px;
+	background-color: #f6f8f8;
+	overflow: hidden;
+}
+
+.content-container{
+	display: block;
+	box-sizing: border-box;
+	width: 1224px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	padding-top: 30px;
+	
+}
+.content-container.establishment{
+	padding: 0px 25px;
+}
+.content-container.animate{
+	animation: fadeInAnimation ease 5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+.our-mission-cont{
+	animation: fadeInAnimation ease 1s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+	width: 1024px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	line-height: 30px;
+
+}
+.our-mission{
+	width: 500px;
+	padding: 40px;
+	color: #000000;
+
+}
+.home-nav{
+	width: 100%;
+	padding: 30px;
+	font-size: 20px;
+}
+.half-divider-cont{
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 40px;
+}
+.half-divider{
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	width: 50%;
+	padding: 10px;
+	
+}
+.half-divider.newBiz{
+	text-align: left;
+	padding: 10px 60px;
+	line-height: 25px;
+}
+.home-tile-pic{
+	width: 500px;
+}
+#p-tile{
+	padding: 15px 45px;
+	color: #666666;
+	text-align: left;
+
+}
+#error{
+	box-sizing: border-box;
+	width: 500px;
+	padding: 15px;
+	background-image: linear-gradient(-125deg, #ff0000, #f75c5c);
+	position: relative;
+	top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 5px;
+}
+#error-msg{
+	box-sizing: border-box;
+	background-color: #ffffff;
+	width: 100%;
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+.general-button{
+	display: inline-block;
+	background-color: #5fc8d3;
+	color: #ffffff;
+	padding: 15px 25px;
+	border-radius: 3px;
+	font-size: 20px;
+	-webkit-appearance: none;
+}
+.general-button.submit{
+	display: inline-block;
+	float: right;
+	font-family: sansation;
+	border: 0px;
+	margin-top: 15px;
+}
+.general-button:hover{
+	background-color: #55abb4;
+	cursor: pointer;
+	animation: fadeInAnimation ease 1s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+.general-button.green{
+	background-color: #5fd367;
+}.general-button.green:hover{
+	background-color: #4baa51;
+	
+}
+
+.footer{
+	box-sizing: border-box;
+	display: block;
+	padding: 50px 15px;
+	background-color: #117263;
+	width: 100%;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 26px;
+}
+.footer-container{
+	width: 1124px;
+	margin: 15px auto;
+	 
+}
+.footer-tile{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 33%;
+	vertical-align: text-top;
+	
+}
+a.footurl:link{color: #ffffff; text-decoration: underline;}
+a.footurl:visited{color: #ffffff; text-decoration: none;}
+a.footurl:hover{color: #cacaca; text-decoration: none;}
+a.footnav:link{
+	color: #ffffff;
+
+}
+a.footnav:visited{color: #ffffff; text-decoration: none;}
+a.footnav:hover{color: #cacaca; text-decoration: none;}
+
